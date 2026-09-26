@@ -1,6 +1,20 @@
-body{
+/* 1. Define the font and point to its location */
+@font-face {
+    font-family: 'Google Sans';
+    src: url('assets/fonts/Google_Sans/GoogleSans-Regular.ttf') format('truetype');
+    /* Note: If your file extension is .woff2, change the line above to:
+       src: url('assets/fonts/Google_Sans/GoogleSans-Regular.woff2') format('woff2'); */
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* 2. Your existing background rule */
+body {
     background-color: #5C6BC0;
 }
-h1{
-    font-family: assets/fonts/Google_Sans/GoogleSans-Regular ;
+
+/* 3. Apply the font name you defined above */
+h1 {
+    font-family: 'Google Sans', sans-serif;
+    color: white;
 }
