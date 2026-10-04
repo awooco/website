@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Google Sans';
-    src: url('/assets/fonts/Google_Sans/GoogleSans-Regular.ttf') format('truetype');
+    src: url('./assets/fonts/Google_Sans/GoogleSans-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
