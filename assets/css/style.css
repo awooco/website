@@ -18,13 +18,18 @@ h1 {
     text-align: center;
     font-family: 'Google Sans', sans-serif;
     color: white;
-    font-size: 60px;
+    font-size: 40px;
 }
 
 header{
     background-color: #c5a07c;
     border-radius: 50px;
     text-align: center;
+}
+
+footer{
+    background-color: #c5a07c;
+    border-radius: 50px;
 }
 
 .items {
